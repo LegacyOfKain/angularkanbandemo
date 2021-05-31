@@ -25,7 +25,7 @@
 </mat-form-field>
 
 <mat-form-field>
-  <mat-label>Lane</mat-label>
+  <mat-label>Status</mat-label>
   <mat-select [(ngModel)]="data.task.lane" name="laneSelect">
     <mat-option *ngFor="let laneoption of lanes" [value]="laneoption.value">{{laneoption.viewValue}}</mat-option>
   </mat-select>
